@@ -1,9 +1,10 @@
 library(stringi)
 setwd("F://PvD//Studying//Programming//CTRRAssignment//CTRR_BTL")
 dataRaw <- read.csv2("owid-covid-data.csv", header = TRUE, sep = ",")
+setwd("F://PvD//Studying//Programming//CTRRAssignment//CTRR_BTL//task1")
 #MADE 4263
   x <- length(dataRaw$continent)
-  
+
 #(1) Years of research
   curYear <- "2000"                 #current Year
   cntYear <- 0                      #counter Year (0 default)
